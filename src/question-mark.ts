@@ -14,8 +14,8 @@ const isAdult = age >= 18 ? 'yes' : 'no'
 // null & undefined
 // const isAuthenticatedUser = null;
 const isAuthenticatedUser = '';
-const userName = isAuthenticatedUser ?? 'geust'
-const userName2 = isAuthenticatedUser? isAuthenticatedUser : 'geust'
+const userName = isAuthenticatedUser ?? 'guest'
+const userName2 = isAuthenticatedUser? isAuthenticatedUser : 'guest'
 // console.log({ userName }, { userName2 });
 
 type Manus = {
