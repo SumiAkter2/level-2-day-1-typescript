@@ -16,4 +16,4 @@ const b: newKeyOfType = 'job';
 function getProperty<X,Y extends keyof X> (obj: X, key: Y ) {
      obj[key]
 }
-const property= getProperty({name:'sumii',age:44},'name',)
+const property= getProperty({name:'sums',age:44},'name',)
