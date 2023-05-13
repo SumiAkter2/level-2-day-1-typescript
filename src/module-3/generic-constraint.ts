@@ -2,12 +2,6 @@ interface MandatoryType{
 name:string,roll:number,job:boolean
 }
 
-const addMeInMyCrushMind2 = <T extends MandatoryType>(myInfo2: T) => {
-    const crush2 = 'rashed';
-    const newData2 = { ...myInfo2, crush2 };
-    return newData2;
-}
-
 type MyInfoType = {
     name: string,
     roll: number,
@@ -22,5 +16,9 @@ const myInfo2 = {
     other1: 'rahsed',
     other2:undefined,
 }
+const addMeInMyCrushMind2 = <T extends MandatoryType>(myInfo2: T) => {
+    const crush2 = 'rashed';
+    const newData2 = { ...myInfo2, crush2 };
+    return newData2;
+}
 const result3 = addMeInMyCrushMind2(myInfo2);
-result3.
