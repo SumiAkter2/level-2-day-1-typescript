@@ -50,8 +50,6 @@ const numbers:B = {
 
 
 // pari nai:
-
-
 function getArrayItem<T, K extends keyof T>(arr: T[], index: number, key: K): T[K] {
   const item = arr[index];
   return item[key];
